@@ -29,15 +29,17 @@ To get you started you can simply clone the repository and install the dependenc
 
 ### Prerequisites
 
-You can get git from<br>
-[https://github.com/JasonMcz/steemprices].<br>
-`git clone https://github.com/JasonMcz/steemprices`
+You can get git from https://github.com/JasonMcz/steemprices.<br>
+<br>
+run `git clone https://github.com/JasonMcz/steemprices.git`
 
 ### Install Dependencies 
-
- `sudo npm install`<br>
- `bower install (might require root)` 
+get into the directory:<br>
+`cd steemprices`
+<br>
+ run `sudo npm install`<br>
+ run `bower install (might require root)` 
  
 ### Start Server
 
-`sh run.sh`
+run `sh run.sh`
