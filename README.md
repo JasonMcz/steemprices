@@ -43,3 +43,8 @@ get into the directory:<br>
 ### Start Server
 
 run `sh run.sh`
+<code>    
+    babel-node get_data.js<br>
+    babel-node get_market.js<br>
+    sleep 30<br> \\change if you need more frequent pricing update. now set as half minute.
+</code>
