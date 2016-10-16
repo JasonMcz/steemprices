@@ -11,9 +11,9 @@ finish()
 trap finish SIGINT
 
 while (( running )); do
-    // Execute the command here that starts your server.
+    # // Execute the command here that starts your server.
     echo "Restarting server on crash.."
     babel-node get_data.js
-    babel-node get_market.js
+    # babel-node get_market.js
     sleep 30
 done
