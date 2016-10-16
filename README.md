@@ -44,7 +44,7 @@ get into the directory:<br>
 
 run `sh run.sh`
 
-Note:
+Note:<br>
   `babel-node get_data.js`<br>
   `babel-node get_market.js`<br>
   `sleep 30 \\change if you need more frequent pricing update. now set as half minute.`
